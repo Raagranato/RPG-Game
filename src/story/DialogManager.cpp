@@ -1,1 +1,2 @@
-#include "dialog.hpp"
+#include "story/DialogManager.hpp"
+
