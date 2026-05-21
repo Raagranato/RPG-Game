@@ -1,5 +1,6 @@
-#define ARMOR_HPP
 #ifndef ARMOR_HPP
+#define ARMOR_HPP
+
 
 
 class Armor
