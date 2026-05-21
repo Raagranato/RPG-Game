@@ -7,7 +7,7 @@ class Npc
 private:
     int hp, MaxHp, mp, MaxMp, atk;
     std::string status;//Insane, poison
-    //inteligence,luck,condition
+    //inteligence,luck, condition
     Armor *armor;
 public:
     Npc();
