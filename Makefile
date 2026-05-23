@@ -1,7 +1,7 @@
 CXXFLAGS = -Wall -Wextra -I include/
 SRC = $(wildcard src/*.cpp src/**/*.cpp)
 
-all:
+THEGAME:
 	g++ $(CXXFLAGS) main.cpp $(SRC) -o bin/game
 	./bin/game
 
