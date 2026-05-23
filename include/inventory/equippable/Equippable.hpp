@@ -1,3 +1,5 @@
+#ifndef EQUPPABLE_HPP
+#define EQUPPABLE_HPP
 #include <string>
 
 class Equippable
@@ -9,3 +11,4 @@ public:
     ~Equippable();
     bool isEquipped();
 };
+#endif

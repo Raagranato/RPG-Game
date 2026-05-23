@@ -12,5 +12,5 @@ Armor* Npc::unequipArmor(){
 }
 
 Armor* Npc::equipArmor(){
-    
+    return NULL;
 }

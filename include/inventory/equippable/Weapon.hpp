@@ -10,17 +10,4 @@ public:
     ~Weapon();
 };
 
-Weapon::Weapon(/* args */)
-{
-}
-
-Weapon::~Weapon()
-{
-}
-
-
-
-
-
-
 #endif
