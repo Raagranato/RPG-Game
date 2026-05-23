@@ -6,14 +6,6 @@ private:
     std::string itemType;
     std::string descrition;
 public:
-    Item(/* args */);
-    ~Item();
+    Item(std::string name,std::string itemType,std::string descrition);
+    ~Item();    
 };
-
-Item::Item(/* args */)
-{
-}
-
-Item::~Item()
-{
-}

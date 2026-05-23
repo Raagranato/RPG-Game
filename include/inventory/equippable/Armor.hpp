@@ -1,6 +1,6 @@
 #ifndef ARMOR_HPP
 #define ARMOR_HPP
-
+#include <string>
 class Armor
 {
 private:
@@ -9,5 +9,6 @@ private:
 public:
     Armor(/* args */);
     ~Armor();
+    
 };
 #endif
