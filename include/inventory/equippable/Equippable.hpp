@@ -1,8 +1,9 @@
 #ifndef EQUPPABLE_HPP
 #define EQUPPABLE_HPP
 #include <string>
+#include "inventory/Item.hpp"
 
-class Equippable
+class Equippable:public Item
 {
 private:
     
@@ -11,4 +12,5 @@ public:
     ~Equippable();
     bool isEquipped();
 };
+
 #endif

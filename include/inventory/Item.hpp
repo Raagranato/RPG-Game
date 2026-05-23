@@ -1,4 +1,4 @@
-#include <string>//Logic-------->everything in inventory is hereditary to item
+#include <string>//Logic-------->everything in inventory is hereditary to item - TODO
 class Item
 {
 private:
@@ -7,5 +7,6 @@ private:
     std::string descrition;
 public:
     Item(std::string name,std::string itemType,std::string descrition);
-    ~Item();    
+    ~Item();
+    
 };
