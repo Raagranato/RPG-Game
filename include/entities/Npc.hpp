@@ -6,13 +6,13 @@
 class Npc
 {
 private:
-    int hp, MaxHp, mp, MaxMp, atk;
+    int hp, maxHp, mp, maxMp, atk;
     std::string status;//Insane, poison, cursed(demonic curse, n pode curar mas pode)
     //inteligence,luck, condition
     Armor *equipedArmor;
     Weapon *equipedWeapon;
 public:
-    Npc();
+    Npc(int hp, int maxHp, int mp, int maxMp, int atk, std::string status = "Good", Armor *equipedArmor = nullptr, Weapon *equipedWeapon = nullptr);//Declaration with nullptr- TODO
     ~Npc();
 
     //--GETTERS--
@@ -27,19 +27,26 @@ public:
 
     //--SETTERS--
 
-    int setHp(int h);
-    int setMaxHp(int mh);
-    int setMp(int m);
-    int setMaxMp(int mp);
-    int setAtk(int a);
+    void setHp(int hp);
+    void setMaxHp(int maxHp);
+    void setMp(int mp);
+    void setMaxMp(int maxMp);
+    void setAtk(int atk);
 
+    //--PRINTS--
+    void printHp() const;
+    void printMaxHp() const;
+    void printMp() const;
+    void printMaxMp() const;
+    void printAtk() const;
+    void printStatus() const;
+    void printArmor() const;
 
     //--EQUIP/UNEQUIP--
 
     std::string setStatus();
     Armor *unequipArmor();
-    Armor *equipArmor();
+    //Armor *equipArmor(Armor *armor);
 };
-
 
 #endif

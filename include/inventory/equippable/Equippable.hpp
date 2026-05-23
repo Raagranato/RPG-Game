@@ -7,7 +7,7 @@ class Equippable
 private:
     
 public:
-    Equippable(/* args */);
+    Equippable();
     ~Equippable();
     bool isEquipped();
 };
