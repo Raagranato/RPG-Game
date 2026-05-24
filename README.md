@@ -1,2 +1,2 @@
 # RPG-Game
-Jogo RPG feito em C++, que possui progressão e história.
+Jogo RPG feito em Java, que possui progressão e história.

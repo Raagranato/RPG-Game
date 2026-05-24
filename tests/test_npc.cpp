@@ -2,7 +2,7 @@
 #include <cassert>
 #include <iostream>
 int main(){
-    Npc npc(1, 43, 10, 200, 70, "Good",  nullptr, nullptr);
+    Npc npc (1, 43, 10, 200, 70, "Good",  nullptr, nullptr);
     assert(npc.getAtk()==70);
     assert(npc.getMaxHp()==43);
     assert(npc.getHp()==1);
