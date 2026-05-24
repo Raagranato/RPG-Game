@@ -3,7 +3,7 @@ package inventory.equippable;
 public class Armor extends Equippable {
 
     // --ATRIBUTOS--
-    private float defense; // 0.8 = protege 80% do dano
+    private float defense; // 0.8 = protect 80% of the damage
     private String typeDef;
 
     // --CONSTRUTOR--
